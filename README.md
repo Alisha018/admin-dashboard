@@ -18,7 +18,7 @@ Team Management
 
 Contacts Information
 
-Invoices & Billing
+
 
 Simple Bar Chart Analytics
 Visualizes performance/sales insights through a bar chart.
