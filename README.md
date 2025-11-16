@@ -1,87 +1,49 @@
-🚀 Admin Dashboard — React, Material UI
+# Admin Dashboard Web Application
 
-A fully responsive and customizable Admin Dashboard built using React, Material UI, and JavaScript, designed to showcase clean UI components, KPI cards, data tables, chart visualization, and theme switching.
-This project demonstrates strong frontend skills, component structuring, and data handling suitable for entry-level analyst, frontend, and software development roles.
+This project is a responsive Admin Dashboard built using HTML, Tailwind CSS and react 
+It includes reusable components, a clean layout, basic charts, tables, and a simple structure suitable for beginner and intermediate frontend development.
 
-📌 Features
+---
 
-Responsive Dashboard Layout
-Clean and modern UI built with Material UI and custom theme tokens.
+## Overview
 
-KPI Cards
-Displays key metrics such as revenue, transactions, and performance indicators.
+The purpose of this project is to practice modern frontend development by building a dashboard interface similar to what is commonly used in admin tools.  
+It focuses on clean UI, component reusability, responsiveness, and basic data organisation.
 
-Data Tables
-Includes structured mock datasets for:
+---
 
-Team Management
+## Features
 
-Contacts Information
+- Dashboard page with summary cards  
+- Chart visualizations  
+- Table page using structured JSON data  
+- Reusable components for layout and UI    
+- Simple routing structure
 
+---
 
+## Tech Stack
 
-Simple Bar Chart Analytics
-Visualizes performance/sales insights through a bar chart.
-
-Light & Dark Mode Toggle
-Theme switching for accessibility and modern UI experience.
-
-Sidebar Navigation
-Easy route access to dashboard sections.
-
-🛠️ Tech Stack
-
-React.js
-
-JavaScript (ES6+)
-
-Material UI
-
-HTML5, CSS3
-
-JSON Data Handling
-
-Git & GitHub
-
-📁 Project Structure
-/src
-  ├── components
-  ├── scenes
-  ├── theme.js
-  ├── App.js
-  └── index.js
-
-/public
-  └── index.html
-
-package.json
-README.md
-.gitignore
-
-⚙️ Installation & Setup
-1️⃣ Clone the repository:
-git clone <your-repo-url>
-
-2️⃣ Install dependencies:
-npm install --legacy-peer-deps
-
-3️⃣ Start development server:
-npm start
+- HTML
+- React.js  
+- Tailwind CSS   
+- JavaScript (ES6+)  
 
 
-Open http://localhost:3000
- in your browser.
+---
 
-All datasets are structured JSON objects to simulate real business analytics.
+## Structure
+src/
+│── components/        
+│── pages/             
+│── data/              
+│── theme.js           
+│── App.js
+└── index.js
 
-🎯 Purpose of Project
 
-This project was created to:
+Adding more pages such as user management or settings
 
-Demonstrate React + UI design skills
+Improving theme switch, icons, and layout consistency
 
-Showcase data visualization for analyst roles
-
-Build a customizable and clean admin interface
-
-Practice frontend component structure and state management
+Integrating backend for real admin workflows
